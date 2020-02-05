@@ -37,3 +37,15 @@ variable "profile" {
   default = "cx2-2x4"
   description = "Instance profile to be used for virtual instances"
 }
+
+variable "iaas_classic_username" {
+  description = "IAAS username"
+}
+
+variable "iaas_classic_api_key" {
+  description = "IAAS API Key"
+}
+
+variable "ibmcloud_api_key" {
+  description = "IBM Cloud API KEY"
+}
